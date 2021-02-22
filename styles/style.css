@@ -1,0 +1,440 @@
+
+header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    background-color: #2d2772;
+    border-radius: 10px;
+    z-index: 99;
+    padding: 5px;
+}
+
+menu {
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: relative;
+    z-index: 2;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans';
+    transition: 0.9s;
+    padding: 8px;
+}
+
+.menu_link:hover {
+    border-bottom: solid #fff 1px;
+}
+
+menu ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Logo {
+    background-image: url("../images/Logo.png");
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 40px;
+}
+
+.main_text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.main_text h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.main_text p {
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.btns .main_btn {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-size: 17px;
+    font-weight: 400;
+    margin: 15px;
+    padding: 15px;
+    color: #fff;
+    border: solid #fff 1px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.main_btn:hover {
+    border: solid #fff 1px;
+    color: #233148;
+    background-color: #fff;
+}
+
+.smartphone_phone {
+    background-image: url("../images/Smartphone.png");
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 559px;
+    background-position: center bottom;
+}
+
+.provide {
+    background-color: #fafafc;
+    position: relative;
+    padding: 2rem;
+}
+
+.provide_title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.provide_title h2 {
+    color: #292929;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.provide_title p {
+    color: #292929;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.tables_card {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 170px;
+    box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+    transition: 0.2s;
+}
+
+.tables_card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 81.88px 10.12px rgba(204, 204, 223, 0.71);
+}
+
+.tables_card span {
+    color: #233148;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27.24px;
+}
+
+.tables_card p {
+    color: #6a6d89;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.card_img1 {
+    background-image: url("../images/Icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 52px;
+    height: 52px;
+    padding: 5px;
+}
+
+.card_img2 {
+    background-image: url("../images/Icon1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55px;
+    height: 52px;
+    padding: 5px;
+}
+
+.card_img3 {
+    background-image: url("../images/Icon3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 49px;
+    height: 58px;
+    padding: 5px;
+}
+
+.card_img4 {
+    background-image: url("../images/Icon4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 38px;
+    height: 61px;
+    padding: 5px;
+}
+
+.wrapper {
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    margin: 1px;
+}
+
+.download_stable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-between;
+    padding: 5rem;
+}
+
+.download_stable h3 {
+    color: #233148;
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.download_stable p {
+    color: #6a6d89;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    width: 470px;
+    line-height: 27.24px;
+}
+
+.stable_btn {
+    color: #fff;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #33d2fd;
+    padding: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #33d2fd;
+    border-radius: 10px;
+    transition: .1s;
+}
+
+.stable_btn:hover {
+    cursor: pointer;
+    border: 1px solid #33d2fd;
+    background-color: #fff;
+    color: #33d2fd;
+}
+
+.download_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards {
+    box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 550px;
+    transition: .9s;
+}
+
+.cards span {
+    color: #233148;
+    font-family: "Work Sans";
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.cards p {
+    display: none;
+    transition: .9s;
+}
+
+.cards:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+    background-color: #33d2fd;
+}
+
+.cards:hover p {
+    display: block;
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dow_img1 {
+    background-image: url("../images/Composite_Path.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 26px;
+    padding: 10px;
+}
+
+.dow_img2 {
+    background-image: url("../images/Composite_Path1.png");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 31px;
+    padding: 10px;
+}
+
+.dow_img3 {
+    background-image: url("../images/Composite_Path2.png");
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 28px;
+    padding: 10px;
+}
+
+.dow_img4 {
+    background-image: url("../images/Composite_Path3.png");
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 27px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #233148;
+}
+
+.copy {
+    color: #fff;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.24px;
+}
+
+.social a {
+    font-size: 20px;
+    line-height: 19px;
+    color: #fff;
+    display: inline-block;
+    margin-right: .9rem;
+    transition: 0.3s;
+}
+
+.m-menu {
+    display: none;
+}
+
+.m-menu-link {
+    display: none;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.close-menu {
+    position: fixed;
+    right: 5rem;
+    top: 1rem;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.close-menu:hover {
+    cursor: pointer;
+}
+
+.m-menu {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    list-style: none;
+    font-size: 3rem;
+    line-height: 8rem;
+    background-color: #33d2fd;
+    z-index: 2222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: 0.2s;
+    transform: translateX(100%);
+}
+
+.m-menu__active {
+    transform: translateX(0%);
+}
+
+.menu_linkk {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans';
+}

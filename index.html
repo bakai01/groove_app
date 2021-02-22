@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <title>Groove App</title>
+    </head>
+        
+    <body>
+
+        <ul class="m-menu">
+            <li class="close-menu">&times;</li>
+            <li><a href="#" class="menu_linkk">Home</a></li>
+            <li><a href="#" class="menu_linkk">About</a></li>
+            <li><a href="#" class="menu_linkk">App</a></li>
+            <li><a href="#" class="menu_linkk">Info</a></li>
+        </ul>
+        
+        <a href="#top" class="arrowUp">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+
+        <header>
+
+            <menu>
+                <div class="Logo"></div>
+
+                <a href="" class="m-menu-link">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <ul>
+                    <li><a href="#" class="menu_link">Home</a></li>
+                    <li><a href="#" class="menu_link">About</a></li>
+                    <li><a href="#" class="menu_link">App</a></li>
+                    <li><a href="#" class="menu_link">Info</a></li>
+                </ul>
+            </menu>
+
+            <div class="main_text">
+                <h1>Choose a better way to<br> represent your app</h1>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum.</p>
+                
+                <div class="btns">
+                    <a href="#" class="main_btn">Download Free</a>
+                    <a href="#" class="main_btn">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="smartphone">
+                <div class="smartphone_phone"></div>
+            </div>
+        </header>
+
+        <div class="provide">
+            <div class="provide_title">
+                <h2>We Provide</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+            </div>
+            
+            <div class="tables">
+                <div class="tables_card">
+                    <div class="card_img1"></div>
+                    <span>First 7 Days Free</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="tables_card">
+                    <div class="card_img2"></div>
+                    <span>Fully Support</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="tables_card">
+                    <div class="card_img3"></div>
+                    <span>Modern Flat Design</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="tables_card">
+                    <div class="card_img4"></div>
+                    <span>User Friendly</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="download">
+            <div class="wrapper">
+                <div class="download_stable">
+                    <h3>Stable And Ready</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged.</p>
+                    <button class="stable_btn">Download Free</button>
+                </div>
+
+                <div class="download_cards">
+                    <div class="cards">
+                        <div class="dow_img1"></div>
+                        <span>Made With Love</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="cards">
+                        <div class="dow_img2"></div>
+                        <span>Free of Use</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="cards">
+                        <div class="dow_img3"></div>
+                        <span>Fully Support Avaliable</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="cards">
+                        <div class="dow_img4"></div>
+                        <span>Flat and Modern Ui & Ux</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="copy">
+                <p> © 2018 - Appo,All Right Reserved</p>
+            </div>
+
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+
+            $(function() {
+                var link = $('.m-menu-link');
+                var close = $('.close-menu');
+                var menu = $('.m-menu');
+
+                link.on('click', function(event) {
+                    event.preventDefault();
+                    menu.toggleClass('m-menu__active');
+                });
+
+                close.on('click', function(event) {
+                    event.preventDefault();
+                    menu.toggleClass('m-menu__active');
+                });
+            });
+
+        </script>
+
+    </body>
+</html>
